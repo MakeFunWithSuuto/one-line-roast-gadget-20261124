@@ -1,4 +1,4 @@
 {
-  "entry": "My Nest thermostat learned my schedule in January and still heats the house at 6 a.m. for a gym habit I buried in February.",
-  "program": "// One-Line Roast: The Gadget You Use Every Day — writes the chosen line to /output/entry.txt.\nimport { mkdirSync, writeFileSync } from \"node:fs\";\n\nconst roast =\n  \"My Nest thermostat learned my schedule in January and still heats the house at 6 a.m. for a gym habit I buried in February.\";\n\nmkdirSync(\"/output\", { recursive: true });\nwriteFileSync(\"/output/entry.txt\", roast, \"utf8\");\n"
+  "entry": "My Nest thermostat still heats the house at 6 a.m. for the gym habit it learned in January and I buried in February.",
+  "program": "// One-Line Roast: The Gadget You Use Every Day — writes the chosen line to /output/entry.txt.\nimport { mkdirSync, writeFileSync } from \"node:fs\";\n\nconst roast =\n  \"My Nest thermostat still heats the house at 6 a.m. for the gym habit it learned in January and I buried in February.\";\n\nmkdirSync(\"/output\", { recursive: true });\nwriteFileSync(\"/output/entry.txt\", roast, \"utf8\");\n"
 }
