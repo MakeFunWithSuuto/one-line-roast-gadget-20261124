@@ -2,7 +2,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const roast =
-  "My AirPods ignore the phone in my hand and pair with the laptop two rooms away, like a dog that only loves the neighbors.";
+  "My Nest thermostat learned my schedule in January and still heats the house at 6 a.m. for a gym habit that died in February.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", roast, "utf8");
