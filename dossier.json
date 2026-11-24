@@ -1,0 +1,4 @@
+{
+  "entry": "My AirPods ignore the phone in my hand and pair with the laptop two rooms away, like a dog that only loves the neighbors.",
+  "program": "// One-Line Roast: The Gadget You Use Every Day — writes the chosen line to /output/entry.txt.\nimport { mkdirSync, writeFileSync } from \"node:fs\";\n\nconst roast =\n  \"My AirPods ignore the phone in my hand and pair with the laptop two rooms away, like a dog that only loves the neighbors.\";\n\nmkdirSync(\"/output\", { recursive: true });\nwriteFileSync(\"/output/entry.txt\", roast, \"utf8\");\n"
+}
